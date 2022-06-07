@@ -28,9 +28,7 @@ class UserFactory extends Factory
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
 
-            //permisos admin y staff
-            'is_admin'=>true,
-            'is_staff'=>true,
+           
         ];
     }
 

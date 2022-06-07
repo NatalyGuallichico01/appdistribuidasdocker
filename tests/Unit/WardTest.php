@@ -11,8 +11,7 @@ class WardTest extends TestCase
     
     public function test_a_ward_has_many_jail()
     {
-        $ward=new Ward;
-
-        $this->assertInstanceOf(Collection::class, $ward->jail);
+        $role = new Role;
+       $this->assertInstanceOf(Collection::class , $role ->users);
     }
 }
